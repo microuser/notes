@@ -1,4 +1,4 @@
-# notes
+ # notes
 ## Books 
 ### OReilly Football Analytics with Python & R, Eager & Erickson
 These are the personal notes, under MIT license of Paul Richeson, Dec 4th, 2023.
@@ -82,6 +82,7 @@ usihg the theory of 25, median, and 7% third-quartiles we conclude the long pass
 - in R we have a pattern like `` pbp -> filter() |> pull() |> summary()  ``
 - in python we have a pattern like `` pbp.query('"columnValue" == "expected"')["newColumn"].describe ``
 - when plotting make sure to split them up in buckets, for example, every yard. rather than grouping badly.
+- the group by is introduced. making it more like sql.
 - 
 
    
