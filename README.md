@@ -54,10 +54,13 @@ conda
  - Chosing the right players requires a tallent scout. We use statistics more than in the past, we started with punch cards.
  - With 0 meaning no cooorelation (independent variables) ,
  -  and -1 as a negative coorelation (occur mutually exclusive),
- -  and 1 as a postive coorelation (occur re-encorcingly). Meaning they 
+ -  and 1 as a postive coorelation (occur re-enforcingly). Meaning they 
  - unitized.
  - Stability is the reliability of the stat to stay the same,or as projected between difference circulstances with cross coorelations and oddities and meaningfull-ness of thestatisic.
  - EDA is about asking the right questions, now just using the stats blind.
  - The right answer to the wrong questionis useless is useless in and of itself, while the right question can lead you to prosperous outcomes even if you fall short of the correct answer.
  - Learning to asking the right question is a process honed by learning from asking the wrong questions. ! ! !
+ - Good an dbad, and not quantifiable enough.
+ - In python we select using numpy and array key access , we are realy just making "long and short" passing lengths in human understandable terms. It feels like make work. But it is nice to see, because it helps me understand the R code much better. the ifelse(condition, truevalue, falsevalue) mid mutate is kinda strange. Is this cause it is a map? Seems foreign technique.
  - 
+   
