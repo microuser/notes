@@ -80,7 +80,8 @@ usihg the theory of 25, median, and 7% third-quartiles we conclude the long pass
 - longer passes are more variable than short ones.
 - it is difficult to figure out whether a particualar quarter pack will thow good deep passes in the future given the stat based on an unstable calculation. The passes for short more stable, but can even relate negative yards total. The passes for long, are of course positive, cause they are success or failure, and little chances for negative. (I preseume).
 - in R we have a pattern like `` pbp -> filter() |> pull() |> summary()  ``
-- in python we have a pattern like `` pbp.query('"columnVakye" == "expected"')["newColumn"].describe
-
+- in python we have a pattern like `` pbp.query('"columnValue" == "expected"')["newColumn"].describe ``
+- when plotting make sure to split them up in buckets, for example, every yard. rather than grouping badly.
+- 
 
    
