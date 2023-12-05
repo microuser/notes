@@ -35,6 +35,18 @@ julia
 conda
 #unfinished
 ```
+ - i like fluent code.
+ - Key by name and number
+ - value by number of plays and (adot) mean air yards per pass.
+ - filter to include > 100 plays, and skip incomplete rows
+ - never double negative. Only postive perspective.
+ - its obvious that a quarterback who throws to a receiver who then can run is better than just a quarterback who throws to a receiver who sticks still.
+ - the book declares that I have whet my appetite for using math to examine football data. indeed.
+ - the R system of pipes is like linux, but with better symbols.
+ - nflfastR is a package you should import in python
+ - using filter() in R or query() for a subset of data. Or even, vlookup.
+ - using summarize in group by.
+ - Openion: WHy don't they nosql it? with queries. am i reinvting nosql? how is this not MongoDb.
+ - a dataframe, is what I often call the Item object, the ith value in the itterated list.  A row . aka.
  - 
-
  - 
