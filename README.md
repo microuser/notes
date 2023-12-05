@@ -33,8 +33,7 @@ Chapter 1 Notes:
 python3
 julia
 conda
-
-
+#unfinished
 ```
  - 
 
