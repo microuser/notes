@@ -16,5 +16,17 @@ Chapter 1 Notes:
  - The book could be said to argue that running backs do not have high market value.
  - Air Yards, Distance traveled from the line of scrimmage to the line of receiver. slightly less than the actual throw length.
  - Completion percentage over expected. quarterback metric
- - 
+ - Bad draft picks from coahes can be a problem solved using calculations of draft capital. Picks, Pick rounds, Pick Numbers. 
+ - Common Data Languages R, Julia, Python
+ - Funny data languages Matlab, SaS, Jupiter.
+ - Julia, is a math language, high level.
+ - R, Python and Open source licenses get along with the football community it seems. check for libraries in python.
+ - Insert coke or ford advertisement here.
+ - If someone gives you data, and they generate a model with excel, it is best if they know their stuff. Use R or python if you care about posterity.
+ ```py
+2+2
+=> 4
+#comment for humans
+```
+
  - 
