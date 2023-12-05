@@ -28,6 +28,14 @@ Chapter 1 Notes:
 => 4
 #comment for humans
 ```
+ - ignore all install pip, python, conda, npm, nvm, instructions, invest your own with nix.
+  ```nix.conf
+python3
+julia
+conda
 
+
+```
+ - 
 
  - 
