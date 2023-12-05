@@ -84,12 +84,12 @@ usihg the theory of 25, median, and 7% third-quartiles we conclude the long pass
 - when plotting make sure to split them up in buckets, for example, every yard. rather than grouping badly.
 - the group by is introduced. making it more like sql.
 - a review of  R code we should know by now
-``R
+```R
 ##R
 pnp <- pbp |> group_by(passer_id, passer, season) |> summarize ( n=n(), ypa=mean(passing_yards), .groups = "drop" ) |> filter(n>=100) |> arrange(-ypa)
 #print 20
 pbp |> print(n=20)
 
-``
+```
 
    
