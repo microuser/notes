@@ -2,7 +2,7 @@
 ## Books 
 ### OReilly Football Analytics with Python & R, Eager & Erickson
 These are the personal notes, under MIT license of Paul Richeson, Dec 4th, 2023.
-Chapter 1 Notes: 
+#### Chapter 1 Notes OReilly Football Analytics with Python & R, Eager & Erickson: 
  - MIT and Carnegie Mellon students got interested in football statistics, speicially the average Target Distance, and argressiveness compromises for exprexted point posibilities. NFL Scapper, NFL Faster, written in R. 
  - Baseball uses Walks, Strikeouts, Homeruns. Stability and repeatable is best.
  - RYOE - Rushing Yards Over Expected (RYOE)
@@ -49,4 +49,15 @@ conda
  - Openion: WHy don't they nosql it? with queries. am i reinvting nosql? how is this not MongoDb.
  - a dataframe, is what I often call the Item object, the ith value in the itterated list.  A row . aka.
  - 
+ - 
+#### Chapter 2 Notes OReilly Football Analytics with Python & R, Eager & Erickson: 
+ - Chosing the right players requires a tallent scout. We use statistics more than in the past, we started with punch cards.
+ - With 0 meaning no cooorelation (independent variables) ,
+ -  and -1 as a negative coorelation (occur mutually exclusive),
+ -  and 1 as a postive coorelation (occur re-encorcingly). Meaning they 
+ - unitized.
+ - Stability is the reliability of the stat to stay the same,or as projected between difference circulstances with cross coorelations and oddities and meaningfull-ness of thestatisic.
+ - EDA is about asking the right questions, now just using the stats blind.
+ - The right answer to the wrong questionis useless is useless in and of itself, while the right question can lead you to prosperous outcomes even if you fall short of the correct answer.
+ - Learning to asking the right question is a process honed by learning from asking the wrong questions. ! ! !
  - 
