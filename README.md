@@ -62,6 +62,7 @@ conda
  - Learning to asking the right question is a process honed by learning from asking the wrong questions. ! ! !
  - Good an dbad, and not quantifiable enough.
  - In python we select using numpy and array key access , we are realy just making "long and short" passing lengths in human understandable terms. It feels like make work. But it is nice to see, because it helps me understand the R code much better. the ifelse(condition, truevalue, falsevalue) mid mutate is kinda strange. Is this cause it is a map? Seems foreign technique.
+ 
    ``
    pbp["passing_yards"] = np.where(pbp["passing_yards"].isnull(), 0 , pbp["passing_yards"])
    ``
@@ -70,10 +71,16 @@ conda
    ``
 bpb <- bpb |> mutate( pass_length_air = ifelse(air >= 20, "long","short", passing = ifelse(is.na(passing),0,passing) )
    ``
+   
  - it really is just simple trim the bad from the list. not really the best method, but a way to demonstrate what is happening. and this is our introduction.
 usihg the theory of 25, median, and 7% third-quartiles we conclude the long passese are valable than short passes. Even though, they account for similear scores as a simple analysis would seem to indicate.
 - the count is the number of records
--the mean is the arithmetic average
+- the mean is the arithmetic average
+- min is minimum
+- longer passes are more variable than short ones.
+- it is difficult to figure out whether a particualar quarter pack will thow good deep passes in the future given the stat based on an unstable calculation. The passes for short more stable, but can even relate negative yards total. The passes for long, are of course positive, cause they are success or failure, and little chances for negative. (I preseume).
+- in R we have a pattern like `` pbp -> filter() |> pull() |> summary()  ``
+- in python we have a pattern like `` pbp.query('"columnVakye" == "expected"')["newColumn"].describe
 
 
    
